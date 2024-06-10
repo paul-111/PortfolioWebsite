@@ -10,9 +10,9 @@ export const Contact = () => {
   const isXLargeScreen = useMediaQuery(theme.breakpoints.up('xl'));
   
   return (
-    <Container sx={{ height: '50vh' }} maxWidth={'xl'}>
+    <Container sx={{ height: '35vh' }} maxWidth={'xl'}>
       <Typography  sx={{ pt:{ xs: 3, sm: 2, md: 3}, color: '#248a8a' }} variant='h5'> Contact </Typography>
-      <Grid container justifyContent="center" sx={{ p: { xs: '10% 10% 10% 10%',sm: '5% 5% 10% 5%',md: '2% 5% 5% 5%'}}}>
+      <Grid container justifyContent="center" sx={{ p: { xs: '10% 10% 10% 10%',sm: '5% 5% 10% 5%', md: '2% 5% 5% 5%'}}}>
         {contact.map((skill, index) => (
           <Grid item xs={12} sm={2} md={1} key={index} sx={{ p: {xs: 2}} }>
             <Box sx={{ textAlign: 'center' }}>
