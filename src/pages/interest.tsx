@@ -15,7 +15,7 @@ export const Interest = () => {
       <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 10% 5% 10%'}}}>
         {interests.map((skill, index) => (
           <Grid item xs={5} sm={3} md={2} key={index} sx={{ p: {xs: 1}} } >
-            <Box sx={{ textAlign: 'center'}}>
+            <Box sx={{ textAlign: 'center', p: {xs: 2}}} >
               <img
                 src={skill.icon}
                 alt={skill.name}

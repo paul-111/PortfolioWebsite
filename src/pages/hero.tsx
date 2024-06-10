@@ -4,12 +4,12 @@ const mountain =  require("../assets/img/mountain.png");
 const cloud =  require("../assets/img/cloud.png");
 export const Hero = () => {
   return (
-     <Stack sx={{height: {sm: '90vh',md: '100vh'}, bgcolor: '#c7cfed', width: '100%'}} alignItems={'center'}>
+     <Stack sx={{height: '100vh', bgcolor: '#c7cfed', width: '100%'}} alignItems={'center'}>
       <Stack  
       sx={{ 
       width: { xs: '90%', sm: '80%', md: '70%',  lg:' 60%', xl:' 50%' },
       height: '100%',
-      pt: {  xs: '8%', sm: '1%', lg: '5%'}
+      pt: {  xs: '50%', sm: '1%', lg: '5%'}
       }} >
       <Box 
           component="img" 

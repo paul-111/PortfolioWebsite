@@ -32,7 +32,7 @@ export const About = () => {
               marginTop: '10%'
               }} 
         />
-        <Typography sx={{p: 3, color: 'grey', textAlign: 'center', mb: {sm: 15} }} > 
+        <Typography sx={{p: 3, color: 'grey', textAlign: 'center', mb: {xs: 17, md: 15} }} > 
           My name is <ColoredName /> and i'm currently working as a Junior Engineer in Frontend. <br/>
           I aspire to be a problem solver who crafts scalable product that makes your server breath a little and <br/> also a passionate photographer who captures lil tribes playing in the corner of the mountain <br/> or the ocean breeze that makes people smile for holding their hair together with a cute coconut in hand
         </Typography>
