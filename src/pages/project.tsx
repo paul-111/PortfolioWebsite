@@ -16,8 +16,7 @@ const CardComponent = ({ title, photo, description, buttonText }: { title: strin
         </Typography>
         <CardMedia
           component="img"
-          height="250"
-          width="250"
+          width= "100"
           image={photo}
           alt={title}
         />

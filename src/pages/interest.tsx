@@ -12,7 +12,7 @@ export const Interest = () => {
   return (
     <Container sx={{bgcolor: '#e9eef7' }} maxWidth={'xl'} >
       <Typography sx={{ pt:{ xs: 3, sm: 2, md: 3}, mt: 7, color: '#248a8a' }} variant='h5'> Interest </Typography>
-      <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 5% 5% 5%'}}}>
+      <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 10% 5% 10%'}}}>
         {interests.map((skill, index) => (
           <Grid item xs={5} sm={3} md={2} key={index} sx={{ p: {xs: 1}} } >
             <Box sx={{ textAlign: 'center'}}>

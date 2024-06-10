@@ -12,7 +12,7 @@ export const Skill = () => {
   return (
     <Container sx={{bgcolor: '#e1f1f2' }} maxWidth={'xl'}>
         <Typography sx={{ pt:{ xs: 3, sm: 2, md: 3}, color: '#248a8a' }} variant='h5'> Skills </Typography>
-        <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 5% 5% 5%'}}}>
+        <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 10% 5% 10%'}}}>
         {skillList.map((skill, index) => (
           <Grid item xs={5} sm={3} md={2} key={index} sx={{ p: {xs: 1}} } >
             <Box sx={{ textAlign: 'center',  p: {xs: 2} }}>
