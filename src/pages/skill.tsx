@@ -10,11 +10,11 @@ export const Skill = () => {
   const isXLargeScreen = useMediaQuery(theme.breakpoints.up('xl'));
   
   return (
-    <Container sx={{ height: {sm: '100vh', md: '70vh'}, bgcolor: '#e1f1f2' }} maxWidth={'xl'}>
-      <Typography sx={{ p:{ xs: 3, sm: 2, md: 1}, color: '#248a8a' }} variant='h6'> Skills </Typography>
-      <Grid container justifyContent="center" padding={1}>
+    <Container sx={{bgcolor: '#e1f1f2' }} maxWidth={'xl'}>
+        <Typography sx={{ pt:{ xs: 3, sm: 2, md: 3}, color: '#248a8a' }} variant='h5'> Skills </Typography>
+        <Grid container justifyContent="center" sx={{ p: { xs: '5% 5% 10% 5%',sm: '5% 5% 10% 5%',md: '0 5% 5% 5%'}}}>
         {skillList.map((skill, index) => (
-          <Grid item xs={5} sm={3} md={2} key={index}>
+          <Grid item xs={5} sm={3} md={2} key={index} sx={{ p: {xs: 1}} } >
             <Box sx={{ textAlign: 'center',  p: {xs: 2} }}>
               <img
                 src={skill.icon}
